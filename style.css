@@ -1,0 +1,89 @@
+/* Type your code here */
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800&display=swap");
+
+body {
+	background: url(./assets/background-image1.png);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h4 {
+	font-size: 20;
+}
+
+#tabel1 {
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	background-color: #f05136;
+	color: white;
+
+
+}
+
+#tabel2 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	background-color: lightgrey;
+	color: black;
+}
+
+#tabel3 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	background-color: white;
+	color: black;
+}
+
+/* change the font family and spacing as per your project font */
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
+	position: relative;
+	top: 750px;
+	margin-left: 80px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+	font-style: normal;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.tt {
+	position: relative;
+	display: inline-block;
+}
+
+.tt .ttt {
+	visibility: hidden;
+	width: 120px;
+	background-color: white;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	top: 100%;
+	left: 50%;
+	margin-left: -60px;
+}
+
+.tt:active .ttt {
+	visibility: visible;
+}
